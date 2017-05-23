@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<customUI xmlns="http://schemas.spaceclaim.com/customui">
+  <ribbon>
+    <tabs>
+      <tab id="Mcnp.RibbonTab1" label="MCNP">
+        <group id="Mcnp.RibbonGroup1"
+               label="Group 1"
+               layoutOrientation="horizontal">
+          <button id="Mcnp.VolumeButton" command="Mcnp.GetVolumes"/>
+          <button id="Mcnp.GetPlotCommands2" command="Mcnp.GetPlotCommands2"/>
+          <!-->button id="Mcnp.GetPlotCommands" command="Mcnp.GetPlotCommands"/-->
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>

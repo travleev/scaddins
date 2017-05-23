@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<AddIns>
+  <AddIn
+    name="MCNP Add-In by NK-INR"
+    description="Example created from scratch as a class library, using Api.V16 hlp file."
+    assembly="McnpAddIn.dll"
+    typename="NK.McnpAddIn.McnpNKAddIn"
+    host="NewAppDomain" />
+</AddIns>
+
